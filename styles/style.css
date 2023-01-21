@@ -12,26 +12,24 @@ body, html{
     height: 100vh;
 }
 
-header > h1{
+#logo{
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #icon{
     display: flex;
-    justify-content: left;
+    position: absolute;
+    top: -0.3%;
     font-size: 1.8em;
     cursor: pointer;
     margin: 10px;
-    margin-top: -30px;
 }
 
 #links{
     display: none;
 }
 
-ul{
-    transition: all .5s;
-}
 
 #links > ul > li{
     display: flex;
