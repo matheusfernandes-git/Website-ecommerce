@@ -17,19 +17,22 @@ body, html{
     margin-bottom: 10px;
 }
 
-#icon{
+#img{
     display: flex;
     position: absolute;
-    top: -0.3%;
-    font-size: 1.8em;
+    top: -0.1%;
+    font-size: 1.7em;
     cursor: pointer;
+    margin: 10px;
+    font-size: 1em;
+    color: red;
+    width: 1.6em;
     margin: 10px;
 }
 
 #links{
     display: none;
 }
-
 
 #links > ul > li{
     display: flex;
@@ -43,7 +46,7 @@ body, html{
     font-family: 'Noto Sans Tangsa', sans-serif;
     color: #000;
     text-decoration: none;
-    margin: 10px;
+    margin: 5px;
     padding: 8px;
     margin-top: 15px;
 }
@@ -69,7 +72,7 @@ body, html{
 #content > h1{
     font-family: 'DM Sans', sans-serif;
     font-weight: lighter;
-    font-size: 2.2em;
+    font-size: 2.1em;
     margin-top: 60px;
 }
 
