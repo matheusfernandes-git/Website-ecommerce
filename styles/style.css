@@ -27,9 +27,11 @@ header > h1{
 
 #links{
     display: none;
-    transition: all 0.6s;
 }
 
+ul{
+    transition: all .5s;
+}
 
 #links > ul > li{
     display: flex;

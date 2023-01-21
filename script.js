@@ -15,4 +15,3 @@ function clickmenu(){
         links.style.display = 'block'
     }
 }
-document.getElementById('icon').src = 'img/close.png';
