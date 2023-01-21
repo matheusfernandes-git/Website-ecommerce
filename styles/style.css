@@ -12,6 +12,7 @@ body, html{
     height: 100vh;
 }
 
+
 #logo{
     text-align: center;
     margin-bottom: 10px;
@@ -40,7 +41,7 @@ body, html{
     margin-bottom: 10px;
 }
 
-#links > ul > li > a{
+a{
     display: flex;
     font-size: 1.1em;
     font-family: 'Noto Sans Tangsa', sans-serif;
@@ -51,6 +52,10 @@ body, html{
     margin-top: 15px;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 #bag{
     font-size: 1.8em;
     float: right;
@@ -59,7 +64,7 @@ body, html{
     cursor: pointer;
 }
 
-#background{
+#container{
     background: url('../img/fundo3.webp') no-repeat;
     background-size: cover;
     height: 50vh;
@@ -71,7 +76,7 @@ body, html{
 
 #content > h1{
     font-family: 'DM Sans', sans-serif;
-    font-weight: lighter;
+    font-weight: 450;
     font-size: 2.1em;
     margin-top: 60px;
 }
@@ -89,4 +94,73 @@ button{
     font-size: 1.1em;
     border-radius: 4px;
     border: none;
+}
+
+#new > h1{
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+}
+
+#container-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards > img{
+    width: 100%;
+    height: 560px;
+}
+
+.cards > img:hover{
+    transform: scale(1) translateY(7px);
+    cursor: pointer;
+}
+
+.cards > p{
+    margin-top: 20px;
+}
+
+.cards > h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#container-buy{
+    text-align: center;
+}
+
+#buybutton{
+    margin-top: 40px;
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.555);
+    border-radius: 7px;
+}
+
+#buybutton:hover{
+    background-color: rgba(201, 195, 195, 0.562);
+}
+
+#desired > h1{
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+}
+
+#container-suits{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.suits{
+}
+
+.suits > img{
+    width: 230px;
 }
