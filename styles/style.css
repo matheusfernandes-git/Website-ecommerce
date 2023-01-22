@@ -12,10 +12,17 @@ body, html{
     height: 100vh;
 }
 
+header{
+    background-color: #fff;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
 
 #logo{
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 3px;
 }
 
 #img{
@@ -60,7 +67,7 @@ a:hover{
     font-size: 1.8em;
     float: right;
     margin: 10px;
-    margin-top: -40px;
+    margin-top: -42px;
     cursor: pointer;
 }
 
@@ -68,11 +75,14 @@ a:hover{
     background: url('../img/fundo3.jpg') no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 50vh;
+    width: 100%;
+    max-width: 100%;
+    height: 55vh;
 }
 
 #content{
-    padding: 10px;
+    padding: 12px;
+    padding-top: 100px;
 }
 
 #content > h1{
@@ -94,7 +104,11 @@ button{
     cursor: pointer;
     font-size: 1.1em;
     border-radius: 4px;
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+button:hover{
+    background-color: rgba(201, 195, 195, 0.562);;
 }
 
 #new > h1{
@@ -107,13 +121,15 @@ button{
 
 #container-cards{
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding-top: 2em;
 }
 
 .cards > img{
     width: 100%;
-    height: 560px;
+    height: 700px;
     transition: 0.5s ease
 }
 
@@ -123,10 +139,12 @@ button{
 }
 
 .cards > p{
+    font-size: 1.1em;
     margin-top: 20px;
 }
 
 .cards > h3{
+    font-size: 1.3em;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -136,7 +154,9 @@ button{
 }
 
 #buybutton{
-    margin-top: 40px;
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-size: 1.1em;
+    margin-top: 30px;
     width: 400px;
     border: 1px solid rgba(0, 0, 0, 0.555);
     border-radius: 7px;
@@ -214,7 +234,6 @@ footer{
     margin: 10px;
     padding-top: 40px;
 }
-
 
 #social > div{
     display: inline-flex;
