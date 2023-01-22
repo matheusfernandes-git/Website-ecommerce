@@ -72,8 +72,7 @@ a:hover{
 }
 
 #container{
-    background: url('../img/fundo3.jpg') no-repeat;
-    background-position: center center;
+    background: url('../img/fundo3.webp') no-repeat;
     background-size: cover;
     width: 100%;
     max-width: 100%;
@@ -197,7 +196,8 @@ button:hover{
 }
 
 #promotion{
-    background: url('../img/fundo1.jpg') no-repeat;
+    background: url('../img/fundo3.jpg') no-repeat;
+    background-position: center center;
     background-size: cover;
     height: 500px;
 }
