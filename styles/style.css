@@ -65,7 +65,8 @@ a:hover{
 }
 
 #container{
-    background: url('../img/fundo3.webp') no-repeat;
+    background: url('../img/fundo3.jpg') no-repeat;
+    background-position: center center;
     background-size: cover;
     height: 50vh;
 }
@@ -113,10 +114,11 @@ button{
 .cards > img{
     width: 100%;
     height: 560px;
+    transition: 0.5s ease
 }
 
 .cards > img:hover{
-    transform: scale(1) translateY(7px);
+    transform: scale(1) translateY(6px);
     cursor: pointer;
 }
 
@@ -156,11 +158,34 @@ button{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.suits{
+    gap: 1em;
+    padding-top: 2em;
 }
 
 .suits > img{
     width: 230px;
+    transition: 0.5s ease;
+}
+
+.suits > img:hover{
+    transform: scale(1) translateY(5px);
+    cursor: pointer;
+}
+
+.suits > p{
+    margin-top: 10px;
+}
+
+#promotion{
+    background: url('../img/fundo1.jpg') no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#promotion > h1{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 450;
+    font-size: 2.1em;
+    margin-top: 50px;
+    padding-top: 100px;
 }
