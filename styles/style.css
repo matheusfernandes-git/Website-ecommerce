@@ -131,9 +131,12 @@ button:hover{
     padding-top: 2em;
 }
 
+.cards{
+    width: 100%;
+}
+
 .cards > img{
-    width: 400px;
-    height: 600px;
+    width: 100%;
     transition: 0.5s ease
 }
 
@@ -143,11 +146,13 @@ button:hover{
 }
 
 .cards > p{
+    width: 100%;
     font-size: 1.1em;
     margin-top: 20px;
 }
 
 .cards > h3{
+    width: 100%;
     font-size: 1.3em;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -161,7 +166,7 @@ button:hover{
     font-family: 'Noto Sans Tangsa', sans-serif;
     font-size: 1.1em;
     margin-top: 30px;
-    width: 400px;
+    width: 350px;
     border: 1px solid rgba(0, 0, 0, 0.555);
     border-radius: 7px;
 }
