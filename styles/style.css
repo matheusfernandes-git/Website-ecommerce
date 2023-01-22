@@ -83,6 +83,7 @@ a:hover{
 }
 
 #content{
+    width: 100%;
     padding: 12px;
     padding-top: 100px;
 }
@@ -132,6 +133,7 @@ button:hover{
 }
 
 .cards{
+    max-width: 600px;
     width: 100%;
 }
 
@@ -209,7 +211,7 @@ button:hover{
     background: url('../img/fundo3.jpg') no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 500px;
+    height: 60vh;
     width: 100%;
 }
 
