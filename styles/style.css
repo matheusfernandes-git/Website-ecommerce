@@ -7,6 +7,7 @@
     padding: 0px;
     box-sizing: border-box;
     list-style-type: none;
+    font-family: 'Noto Sans Tangsa', sans-serif;    
 }
 
 body, html{
@@ -50,7 +51,7 @@ header{
     margin-bottom: 10px;
 }
 
-a{
+ul > li > a{
     display: flex;
     font-size: 1.1em;
     font-family: 'Noto Sans Tangsa', sans-serif;
@@ -67,10 +68,10 @@ a:hover{
 }
 
 #bag{
-    font-size: 1.8em;
+    font-size: 1.9em;
     float: right;
     margin: 10px;
-    margin-top: -42px;
+    margin-top: -45px;
     cursor: pointer;
 }
 
@@ -78,7 +79,6 @@ a:hover{
     background: url('../img/fundo3.webp') no-repeat;
     background-size: cover;
     width: 100%;
-    max-width: 100%;
     height: 55vh;
 }
 
@@ -194,7 +194,7 @@ button:hover{
 }
 
 .suits > img{
-    width: 230px;
+    width: 233px;
     transition: 0.5s ease;
 }
 
@@ -212,15 +212,46 @@ button:hover{
     background-position: center center;
     background-size: cover;
     height: 60vh;
+    margin-top: 50px;
+}
+
+#text-promo{
+    padding-left: 1.5em;
+    padding-top: 10em;
+}
+
+#text-promo > h1{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 4vw;
+    margin-top: 50px;
+    margin-bottom: 14px;
     width: 100%;
 }
 
-#promotion > h1{
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 450;
-    font-size: 2.1em;
-    margin-top: 50px;
-    padding-top: 100px;
+#text-promo > h4{
+    font-size: 5.2vw;
+    padding-bottom: 1em;
+    line-height: 1.1em;
+    margin-bottom: 20px;
+}
+
+#button-promo{
+    font-size: 3.3vw;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 1rem 2rem 1rem 2rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+#button-promo:hover{
+    background-color: rgba(0, 0, 0, 0.74);
+    color: #fff;
+    transition: 0.4s;
+    transform: scaleY(1.1);
 }
 
 footer{
