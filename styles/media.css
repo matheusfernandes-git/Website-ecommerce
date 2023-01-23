@@ -36,6 +36,77 @@
         font-size: 3vw;
         padding: 1rem 2rem 1rem 2rem;
     }
+}
+
+@media screen and (min-width: 992px) and (max-width: 2506px){
+
+    #new > h1{
+        font-size: 3em;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #container-cards{
+        display: flex;
+        flex: wrap;
+        justify-content: space-between;
+    }
     
+    .cards{
+        display: flex;
+        flex: wrap;
+        gap: 2vw;
+        width: 500px;
+    }
     
+    .cards > p{
+        display: none;
+    }
+
+    .cards > h3{
+        display: block ;
+    }
+    
+    .cards > img{
+        width: 100%;
+        transition: 0.5s ease
+    }
+
+    #buybutton{
+        display: none;
+    }
+
+    #desired > h1{
+        font-size: 3em;
+    }
+
+    .suits > img{
+        width: 450px;
+        transition: 0.5s ease;
+    }
+
+    #promotion{
+        background: url('../img/fundo3.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    #text-promo{
+        max-width: 1400px;
+        padding-top: 4em;
+        padding-left: 4em;
+    }
+    
+    #text-promo > h1{
+        font-size: 2em;
+    }
+    
+    #text-promo > h4{
+        font-size: 3em;
+    }
+
+    #button-promo{
+        font-size: 2vw;
+        padding: 1rem 2rem 1rem 2rem;
+    }
 }

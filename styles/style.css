@@ -210,7 +210,7 @@ button:hover{
     background-position: center center;
     background-size: cover;
     height: 60vh;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 #text-promo{
@@ -260,7 +260,7 @@ strong{
 footer{
     background-color: rgba(0, 0, 0, 0.897);
     height: 500px;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 #container-contact{
