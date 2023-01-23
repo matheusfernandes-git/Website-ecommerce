@@ -1,0 +1,41 @@
+@media screen and (min-width: 746px ) and (max-width: 992px){
+
+    #new > h1{
+        font-size: 4.7vw;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .cards{
+        margin: auto;
+    }
+    
+    #desired > h1{
+        font-size: 4.7vw;
+    }
+
+    .suits > img{
+        width: 350px;
+        transition: 0.5s ease;
+    }
+
+    #text-promo{
+        padding-top: 5em;
+    }
+    
+    #text-promo > h1{
+        font-size: 3vw;
+    }
+    
+    #text-promo > h4{
+        font-size: 4.5vw;
+    }
+
+    #button-promo{
+        font-size: 3vw;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    
+    
+}

@@ -54,7 +54,6 @@ header{
 ul > li > a{
     display: flex;
     font-size: 1.1em;
-    font-family: 'Noto Sans Tangsa', sans-serif;
     color: #000;
     text-decoration: none;
     margin: 5px;
@@ -89,7 +88,6 @@ a:hover{
 }
 
 #content > h1{
-    font-family: 'DM Sans', sans-serif;
     font-weight: 450;
     font-size: 2em;
     margin-top: 60px;
@@ -117,7 +115,8 @@ button:hover{
 }
 
 #new > h1{
-    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-size: 6vw;
+    max-width: 600px;
     font-weight: 400;
     text-align: center;
     padding: 10px;
@@ -125,10 +124,10 @@ button:hover{
 }
 
 #container-cards{
-    margin-left: 10%;
+    margin-left: 15%;
     gap: 1em;
     padding-top: 2em;
-    width: 80vw;
+    width: 70vw;
 }
 
 .cards{
@@ -147,13 +146,11 @@ button:hover{
 }
 
 .cards > p{
-    width: 100%;
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin-top: 20px;
 }
 
 .cards > h3{
-    width: 100%;
     font-size: 1.3em;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -166,7 +163,6 @@ button:hover{
 }
 
 #buybutton{
-    font-family: 'Noto Sans Tangsa', sans-serif;
     font-size: 1.1em;
     margin-top: 30px;
     width: 100%;
@@ -179,12 +175,11 @@ button:hover{
 }
 
 #desired > h1{
-    font-family: 'Noto Sans Tangsa', sans-serif;
     font-weight: 400;
     text-align: center;
     padding: 10px;
     margin: 50px;
-    font-size: 6.3vw;
+    font-size: 6vw;
 }
 
 #container-suits{
@@ -193,6 +188,7 @@ button:hover{
     flex-wrap: wrap;
     gap: 1em;
     padding-top: 2em;
+    width: 100%;
 }
 
 .suits > img{
@@ -219,13 +215,14 @@ button:hover{
 
 #text-promo{
     padding-left: 1.5em;
-    padding-top: 10em;
+    padding-top: 8em;
+    width: 100%;
+    max-width: 600px;
 }
 
 #text-promo > h1{
-    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
-    font-size: 4vw;
+    font-size: 3.5vw;
     margin-top: 50px;
     margin-bottom: 14px;
     width: 100%;
@@ -238,10 +235,14 @@ button:hover{
     margin-bottom: 20px;
 }
 
+strong{
+    color: #7b829b;
+}
+
 #button-promo{
     font-size: 3.3vw;
-    background-color: #fff;
-    color: #000;
+    background-color: rgba(0, 0, 0, 0.795);
+    color: #fff;
     text-decoration: none;
     padding: 1rem 2rem 1rem 2rem;
     cursor: pointer;
@@ -250,14 +251,14 @@ button:hover{
 }
 
 #button-promo:hover{
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgb(37, 37, 37);
     color: #fff;
     transition: 0.4s;
     transform: scaleY(1.1);
 }
 
 footer{
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.897);
     height: 500px;
     margin-top: 50px;
 }
@@ -267,7 +268,6 @@ footer{
 }
 
 #container-contact > h2{
-    font-family: 'DM Sans', sans-serif;
     font-size: 2.5em;
     color: #fff;
     margin: 10px;
