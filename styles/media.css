@@ -1,5 +1,26 @@
 @media screen and (min-width: 746px ) and (max-width: 992px){
 
+    #container{
+        
+    }
+    
+    #content{
+        width: 100%;
+        padding: 12px;
+        padding-top: 100px;
+    }
+    
+    #content > h1{
+        font-weight: 450;
+        font-size: 2em;
+        margin-top: 60px;
+    }
+    
+    #content > p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+    }
+    
     #new > h1{
         font-size: 4.7vw;
         margin: auto;
@@ -50,27 +71,9 @@
     #container-cards{
         display: flex;
         flex: wrap;
-        justify-content: space-between;
-    }
-    
-    .cards{
-        display: flex;
-        flex: wrap;
+        justify-content: center;
         gap: 2vw;
-        width: 500px;
-    }
-    
-    .cards > p{
-        display: none;
-    }
-
-    .cards > h3{
-        display: block ;
-    }
-    
-    .cards > img{
-        width: 100%;
-        transition: 0.5s ease
+        padding: 0 1vw;
     }
 
     #buybutton{

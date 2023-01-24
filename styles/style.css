@@ -75,41 +75,45 @@ a:hover{
 }
 
 #container{
-    background: url('../img/fundo3.webp') no-repeat;
+    background: url('../img/portrait-of-a-smiling-businessman-dressed-in-suit.jpg') no-repeat;
+    background-position: center center;
     background-size: cover;
-    width: 100%;
     height: 55vh;
 }
 
 #content{
-    width: 100%;
+    max-width: 500px;
     padding: 12px;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 #content > h1{
     font-weight: 450;
-    font-size: 2em;
+    font-size: 6vw;
     margin-top: 60px;
 }
 
 #content > p{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
+    font-size: 3vw;
 }
 
 button{
-    width: 150px;
-    margin-top: 10px;
-    padding: 8px;
+    text-align: center;
+    margin-top: 7px;
+    padding: 0.8rem 2rem 1rem 2rem;
     cursor: pointer;
-    font-size: 1.1em;
+    font-size: 3vw;
     border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.795);
+    color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.308);
 }
 
 button:hover{
     background-color: rgba(238, 238, 238, 0.836);
+    color: #000;
     transition: 0.3s;
     transform: scaleY(1.1);
 }
@@ -210,7 +214,7 @@ button:hover{
     background-position: center center;
     background-size: cover;
     height: 60vh;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 #text-promo{
@@ -260,7 +264,7 @@ strong{
 footer{
     background-color: rgba(0, 0, 0, 0.897);
     height: 500px;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 #container-contact{
