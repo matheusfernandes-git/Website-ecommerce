@@ -1,7 +1,7 @@
 @media screen and (min-width: 746px ) and (max-width: 992px){
 
     #container{
-        
+       
     }
     
     #content{
@@ -58,6 +58,11 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 2506px){
+
+    #container{
+        width: 100%;
+        background-position: 0vw;
+    }
 
     #content{
         max-width: 1200px;

@@ -78,18 +78,17 @@ a:hover{
     background: url('../img/portrait-of-a-smiling-businessman-dressed-in-suit.jpg') no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 55vh;
+    height: 65vh;
 }
 
 #content{
-    
     padding-left: 3%;
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 #content > h1{
     font-weight: 450;
-    font-size: 6vw;
+    font-size: 6.5vw;
     margin-top: 60px;
 }
 
@@ -119,11 +118,12 @@ button:hover{
 }
 
 #new > h1{
-    font-size: 6vw;
+    font-size: 6.5vw;
     max-width: 600px;
     font-weight: 400;
     text-align: center;
-    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 15px;
     margin: 50px;
 }
 
@@ -183,7 +183,7 @@ button:hover{
     text-align: center;
     padding: 10px;
     margin: 50px;
-    font-size: 6vw;
+    font-size: 6.5vw;
 }
 
 #container-suits{
