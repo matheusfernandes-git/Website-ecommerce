@@ -1,8 +1,4 @@
-@media screen and (min-width: 746px ) and (max-width: 992px){
-
-    #container{
-       
-    }
+@media screen and (min-width: 746px ) and (max-width: 1137px){
     
     #content{
         padding-top: 50px;
@@ -57,11 +53,10 @@
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 2506px){
+@media screen and (min-width: 1137px) and (max-width: 2506px){
 
     #container{
-        width: 100%;
-        background-position: 0vw;
+        background: url('../img/portrait-of-handsome-confident-stylish-hipster-lambersexual-model-sexy-modern-man-dressed-in-black-elegant-suit-fashion-male-posing-in-studio-on-white-background.jpg');
     }
 
     #content{
