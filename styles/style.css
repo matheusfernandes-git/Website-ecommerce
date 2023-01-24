@@ -128,15 +128,17 @@ button:hover{
 }
 
 #container-cards{
-    margin-left: 15%;
-    gap: 1em;
-    padding-top: 2em;
-    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 2vw;
 }
 
 .cards{
-    max-width: 600px;
-    width: 100%;
+    width: 233px;
+    height: 100% ;
+    flex-grow: 1;
 }
 
 .cards > img{
