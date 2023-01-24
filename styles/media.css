@@ -30,11 +30,6 @@
         font-size: 4.7vw;
     }
 
-    .suits > img{
-        width: 350px;
-        transition: 0.5s ease;
-    }
-
     #text-promo{
         padding-top: 5em;
     }
@@ -104,12 +99,7 @@
         margin-top: 80px;
         margin-bottom: 60px;
         font-size: 3em;
-    }
-
-    .suits > img{
-        width: 450px;
-        transition: 0.5s ease;
-    }
+    }   
 
     #promotion{
         background: url('../img/fundo3.jpg') no-repeat;

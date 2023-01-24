@@ -149,15 +149,14 @@ button:hover{
     cursor: pointer;
 }
 
-.cards > p{
-    font-size: 1.2em;
-    margin-top: 20px;
-}
-
 .cards > h3{
     font-size: 1.3em;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.cards > p{
+    margin-top: 10px;
 }
 
 #container-buy{
@@ -186,19 +185,25 @@ button:hover{
     font-size: 6.5vw;
 }
 
-#container-suits{
+.container-suits{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 1em;
-    padding-top: 2em;
-    width: 100%;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 2vw;
 }
 
-.suits > img{
+.suits{
     width: 233px;
-    transition: 0.5s ease;
+    height: 100% ;
+    flex-grow: 1;
 }
+
+.suits >  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}       
 
 .suits > img:hover{
     transform: scale(1) translateY(5px);
