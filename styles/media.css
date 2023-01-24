@@ -5,17 +5,17 @@
         padding-left: 5%;
     }
     
-    #content > h1{
+    #content h1{
         font-weight: 450;
         font-size: 5vw;
         margin-top: 60px;
     }
     
-    #content > p{
+    #content p{
         font-size: 2.4vw;
     }
     
-    #new > h1{
+    #highlights h1{
         font-size: 4.7vw;
         margin: auto;
         margin-top: 50px;
@@ -26,7 +26,7 @@
         margin: auto;
     }
     
-    #desired > h1{
+    #desired h1{
         font-size: 4.7vw;
     }
 
@@ -34,11 +34,11 @@
         padding-top: 5em;
     }
     
-    #text-promo > h1{
+    #text-promo h1{
         font-size: 3vw;
     }
     
-    #text-promo > h4{
+    #text-promo h4{
         font-size: 4.5vw;
     }
 
@@ -61,12 +61,12 @@
         padding-left: 5%;
     }
     
-    #content > h1{
+    #content h1{
         font-size: 4vw;
         margin-top: 60px;
     }
     
-    #content > p{
+    #content p{
         font-size: 1.6vw;
     }
 
@@ -76,7 +76,7 @@
         font-size: 1.2em;
     }
     
-    #new > h1{
+    #highlights h1{
         font-size: 3em;
         margin: auto;
         margin-top: 50px;
@@ -91,7 +91,7 @@
         display: none;
     }
 
-    #desired > h1{
+    #desired h1{
         margin-top: 80px;
         margin-bottom: 60px;
         font-size: 3em;
@@ -108,11 +108,11 @@
         padding-left: 4em;
     }
     
-    #text-promo > h1{
+    #text-promo h1{
         font-size: 2em;
     }
     
-    #text-promo > h4{
+    #text-promo h4{
         font-size: 3em;
     }
 
