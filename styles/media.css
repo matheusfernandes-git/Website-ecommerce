@@ -83,12 +83,8 @@
         margin-bottom: 80px;
     }
 
-    #container-cards{
-        display: flex;
-        flex: wrap;
-        justify-content: center;
-        gap: 2vw;
-        padding: 0 1vw;
+    .cards{
+        width: 590px;
     }
 
     #buybutton{
