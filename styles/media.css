@@ -1,5 +1,5 @@
 @media screen and (min-width: 746px ) and (max-width: 1137px){
-    
+
     #content{
         padding-top: 50px;
         padding-left: 5%;
@@ -20,10 +20,6 @@
         margin: auto;
         margin-top: 50px;
         margin-bottom: 50px;
-    }
-
-    .cards{
-        margin: auto;
     }
     
     #desired h1{
