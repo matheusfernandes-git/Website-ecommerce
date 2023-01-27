@@ -1,4 +1,13 @@
-@media screen and (min-width: 746px ) and (max-width: 1137px){
+@media screen and (min-width: 768px ) and (max-width: 1090px){
+
+    header{
+        width: 100%;
+        transition: all .35s ease;
+    }
+
+    #logo{
+        margin-left: 10px;
+    }
 
     #content{
         padding-top: 50px;
@@ -44,7 +53,40 @@
     }
 }
 
-@media screen and (min-width: 1137px) and (max-width: 2506px){
+@media screen and (min-width: 1090px) and (max-width: 2506px){
+
+    header{
+        width: 100%;
+    }
+
+    #logo{
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    #img{
+        display: none;
+    }
+
+    #bag{
+        font-size: 2rem;
+        margin-right: 10px;
+    }
+
+    #links ul{
+        display: flex;   
+        justify-content: center;
+        margin-top: -70px; 
+        gap: 1rem;
+    }
+
+    #links ul li a{
+        font-size: 1rem; 
+    }
+
+    hr{
+        margin-top: 17px;
+    }
 
     #container-home{
         background: url('../img/portrait-of-handsome-confident-stylish-hipster-lambersexual-model-sexy-modern-man-dressed-in-black-elegant-suit-fashion-male-posing-in-studio-on-white-background.jpg');
