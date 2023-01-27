@@ -1,3 +1,10 @@
+function changeSize(){
+    if(innerWidth >= 1090){
+        links.style.display = 'block'
+    }else{
+        links.style.display = 'none'
+    }
+}
 
 function clickMenu(){
     if (links.style.display == 'block'){
