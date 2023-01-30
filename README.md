@@ -23,4 +23,4 @@
 
 So, if you're interested, check it out! 🙂
 
-https://matheusfernandes-git.github.io/Site-ecommerce/
+https://matheusfernandes-git.github.io/Website-ecommerce/
