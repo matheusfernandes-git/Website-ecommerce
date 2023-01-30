@@ -73,6 +73,10 @@
         margin-right: 10px;
     }
 
+    #links{
+        display: block;
+    }
+
     #links ul{
         display: flex;   
         justify-content: center;
